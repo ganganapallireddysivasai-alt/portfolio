@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Ganganapalli Reddy Siva Sai, a web designer showcasing skills, education, and contact information."
+    />
+    <title>Ganganapalli Reddy Siva Sai | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="background-animation" aria-hidden="true">
+      <div class="animation-nebula animation-nebula-one"></div>
+      <div class="animation-nebula animation-nebula-two"></div>
+      <div class="animation-grid"></div>
+      <canvas class="orbit-particles"></canvas>
+      <div class="orbit-rig">
+        <div class="orbit-ring orbit-ring-one"></div>
+        <div class="orbit-ring orbit-ring-two"></div>
+        <div class="orbit-ring orbit-ring-three"></div>
+        <div class="orbit-ring orbit-ring-four"></div>
+        <div class="orbit-ray"></div>
+        <div class="orbit-ray orbit-ray-vertical"></div>
+      </div>
+    </div>
+    <div class="mouse-glow" aria-hidden="true"><span></span></div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#home" class="brand" aria-label="Go to home section">G.reddy siva sai</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#education">Education</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Web designer</p>
+            <h1>Hi, I’m Ganganapalli Reddy Siva Sai.</h1>
+            <p class="lead">
+              I’m a web designer who enjoys creating clear, user-friendly websites and thoughtful
+              digital experiences.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#skills">Explore skills</a>
+              <a class="button secondary" href="#contact">Let’s connect</a>
+            </div>
+          </div>
+
+          <div class="hero-visual reveal">
+            <div class="profile-card">
+              <div class="avatar-wrap">
+                <img class="avatar" src="assets/profile-photo.jpeg" alt="Portrait of Ganganapalli Reddy Siva Sai" />
+              </div>
+              <div class="card-meta">
+                <span class="status-dot"></span>
+                Web designer
+              </div>
+              <div class="mini-panel">
+                <div>
+                  <span class="panel-label">Role</span>
+                  <strong>Web Designer</strong>
+                </div>
+                <div>
+                  <span class="panel-label">Focus</span>
+                  <strong>Web & Product</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">About me</p>
+            <h2>A little about me.</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card reveal">
+              <p>
+                I’m Ganganapalli Reddy Siva Sai, a web designer interested in creating intuitive,
+                responsive websites. I enjoy turning ideas into accessible interfaces with HTML,
+                CSS, JavaScript, and TypeScript.
+              </p>
+              <p>
+                I’m also learning about backend technologies and enjoy exploring how the pieces of
+                a complete web application work together.
+              </p>
+            </div>
+
+            <div class="info-stack reveal">
+              <div class="info-item">
+                <span>Location</span>
+                <strong>Rayachoti, Andhra Pradesh, India</strong>
+              </div>
+              <div class="info-item">
+                <span>Email</span>
+                <strong>ganganapallireddysivasai@gmail.com</strong>
+              </div>
+              <div class="info-item">
+                <span>Interests</span>
+                <strong>Cyber Security, Python, Artificial Intelligence and Machine Learning (AI &amp; ML)</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section muted-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Education</p>
+            <h2>My education.</h2>
+          </div>
+
+          <div class="education-card reveal">
+            <p class="eyebrow">Bachelor of Technology</p>
+            <h3>B.Tech</h3>
+            <p>Sri Sai Institute of Technology and Science</p>
+            <p class="education-location">Rayachoty</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section muted-section">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Skills</p>
+            <h2>Technologies I work with.</h2>
+          </div>
+
+          <div class="skills-grid reveal">
+            <div class="skill-column">
+              <h3>Frontend</h3>
+              <div class="skill-list frontend-skill-list">
+                <span class="skill-item">HTML</span>
+                <span class="skill-item">CSS</span>
+                <span class="skill-item">JavaScript</span>
+                <span class="skill-item">React</span>
+                <span class="skill-item">TypeScript</span>
+              </div>
+            </div>
+            <div class="skill-column">
+              <h3>Backend</h3>
+              <div class="skill-list">
+                <span class="skill-item">Node.js</span>
+                <span class="skill-item">PostgreSQL</span>
+                <span class="skill-item">Python</span>
+                <span class="skill-item">C</span>
+                <span class="skill-item">C++</span>
+                <span class="skill-item">Java</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-wrap">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Get in touch.</h2>
+          <a class="phone-link" href="tel:+919014700384">+91 90147 00384</a>
+          <div class="resume-actions">
+            <a class="button secondary" href="assets/resume.pdf" target="_blank" rel="noreferrer">Open my resume</a>
+            <a class="button primary" href="assets/resume.pdf" download="Ganganapallireddy-Siva-Sai-Resume.pdf">Download resume</a>
+          </div>
+        </div>
+        <div class="contact-links">
+          <a href="mailto:ganganapallireddysivasai@gmail.com">ganganapallireddysivasai@gmail.com</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
